@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { testConnection, askGem } from './gemini.js';
+import { askGemini } from "@/gemini.js"
 
 export default function App() {
   const [apiKey, setApiKey] = useState('');
